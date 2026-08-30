@@ -1,6 +1,8 @@
-# hass-configurator-zh 中文汉化包
+# file-editor-zh · Home Assistant「文件编辑器」中文汉化包
 
-把 Home Assistant 官方 **File editor**（`core_configurator`，HASS Configurator 6.0.0）前端界面**完整汉化为中文**，并解决"重启即回滚"的持久化难题。
+> 极简版一句话：**把 HA 的 File editor 插件界面彻底汉化成中文，一键安装，重启不丢。**
+
+把 Home Assistant 官方 **File editor**（`core_configurator` 6.0.0，HASS Configurator）前端界面**完整汉化为中文**，并解决 supervisor「重启即回滚英文」的持久化难题。
 
 > 界面用户可见文案 **100% 中文（约 1727 个中文字符）**：按钮、菜单、弹窗、toast、确认句、设置面板、网络状态、主题标签、工具栏提示全部覆盖。
 
@@ -19,7 +21,7 @@
 ## 📦 仓库结构
 
 ```
-hass-configurator-zh/
+file-editor-zh/
 ├── releases/
 │   ├── dev.orig.html      # 官方原版前端(权威源, 152547B)
 │   └── dev.html           # 汉化成品(1727 中文字符)
