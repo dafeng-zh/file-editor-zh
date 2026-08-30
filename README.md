@@ -140,3 +140,16 @@ python3 apply_zh.py 你的dev.html -o out.html
 ## 📜 License
 
 MIT — 汉化替换内容基于官方 [hass-configurator](https://github.com/danielperna84/hass-configurator)（MIT）的 `dev.html` 构建。
+
+---
+
+## ❓ 常见问题 (FAQ)
+
+**Q: 装完后界面还是英文/显示旧英文（如 "Theme: Dark"）？**
+A: 是浏览器缓存了汉化前的旧页面。**强制刷新**即可：`Ctrl+Shift+R`（Windows/Linux）或 `Cmd+Shift+R`（Mac）。代码里已是中文（如「主题：深色」），刷新后即显示。
+
+**Q: 为什么重启 addon 后汉化还在？**
+A: 因为安装脚本用 `docker commit` 把汉化固化成镜像层并覆盖原 tag，supervisor 重建容器用的就是中文镜像，所以重启不丢。若用 `docker cp` 直接改而不 commit，重启会还原英文。
+
+**Q: 汉化会影响功能吗？**
+A: 不会。只替换用户可见文案，避开代码标识符/Ace 主题名/语言名/快捷键/品牌/示例值，JS 语法经 `node --check` 验证零破坏。
