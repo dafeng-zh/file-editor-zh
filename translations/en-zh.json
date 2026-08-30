@@ -1,0 +1,918 @@
+[
+ [
+  ">OK<",
+  ">确定<"
+ ],
+ [
+  ">Yes<",
+  ">是<"
+ ],
+ [
+  ">No<",
+  ">否<"
+ ],
+ [
+  ">Abort<",
+  ">中止<"
+ ],
+ [
+  ">Clear<",
+  ">清除<"
+ ],
+ [
+  ">Execute<",
+  ">执行<"
+ ],
+ [
+  ">Command<",
+  ">命令<"
+ ],
+ [
+  ">Restart<",
+  ">重启<"
+ ],
+ [
+  ">Connect<",
+  ">连接<"
+ ],
+ [
+  ">Disconnect<",
+  ">断开<"
+ ],
+ [
+  ">Help<",
+  ">帮助<"
+ ],
+ [
+  ">Action<",
+  ">操作<"
+ ],
+ [
+  ">State<",
+  ">状态<"
+ ],
+ [
+  ">Sun<",
+  ">太阳<"
+ ],
+ [
+  ">Template<",
+  ">模板<"
+ ],
+ [
+  ">Time<",
+  ">时间<"
+ ],
+ [
+  ">Zone<",
+  ">区域<"
+ ],
+ [
+  ">Close<",
+  ">关闭<"
+ ],
+ [
+  ">close<",
+  ">关闭<"
+ ],
+ [
+  ">save<",
+  ">保存<"
+ ],
+ [
+  ">About HASS Configurator<",
+  ">关于 HASS Configurator<"
+ ],
+ [
+  ">Settings<",
+  ">设置<"
+ ],
+ [
+  ">Editor Settings<",
+  ">编辑器设置<"
+ ],
+ [
+  ">Keyboard Shortcuts<",
+  ">键盘快捷键<"
+ ],
+ [
+  ">Ace Keyboard Shortcuts<",
+  ">编辑器键盘快捷键<"
+ ],
+ [
+  ">Event Observer<",
+  ">事件观察器<"
+ ],
+ [
+  ">Events<",
+  ">事件<"
+ ],
+ [
+  ">Network status<",
+  ">网络状态<"
+ ],
+ [
+  ">Observe events<",
+  ">观察事件<"
+ ],
+ [
+  ">Components<",
+  ">组件<"
+ ],
+ [
+  ">Entities<",
+  ">实体<"
+ ],
+ [
+  ">Services<",
+  ">服务<"
+ ],
+ [
+  ">Trigger platforms<",
+  ">触发平台<"
+ ],
+ [
+  ">Trigger Platforms<",
+  ">触发平台<"
+ ],
+ [
+  ">Conditions<",
+  ">条件<"
+ ],
+ [
+  ">Trigger<",
+  ">触发<"
+ ],
+ [
+  ">Calendar<",
+  ">日历<"
+ ],
+ [
+  ">Sentence<",
+  ">语句<"
+ ],
+ [
+  ">Event<",
+  ">事件<"
+ ],
+ [
+  ">Geo location<",
+  ">地理位置<"
+ ],
+ [
+  ">Numeric State<",
+  ">数值状态<"
+ ],
+ [
+  ">Numeric state<",
+  ">数值状态<"
+ ],
+ [
+  ">Tag<",
+  ">标签<"
+ ],
+ [
+  ">Time pattern<",
+  ">时间模式<"
+ ],
+ [
+  ">Persistent notification<",
+  ">持久化通知<"
+ ],
+ [
+  ">Select trigger platform<",
+  ">选择触发平台<"
+ ],
+ [
+  ">Select condition<",
+  ">选择条件<"
+ ],
+ [
+  ">Search entity<",
+  ">搜索实体<"
+ ],
+ [
+  ">Line Operations<",
+  ">行操作<"
+ ],
+ [
+  ">Selection<",
+  ">选区<"
+ ],
+ [
+  ">Multicursor<",
+  ">多光标<"
+ ],
+ [
+  ">Go To<",
+  ">转到<"
+ ],
+ [
+  ">Find/Replace<",
+  ">查找/替换<"
+ ],
+ [
+  ">Folding<",
+  ">折叠<"
+ ],
+ [
+  ">Other<",
+  ">其他<"
+ ],
+ [
+  ">Indent<",
+  ">缩进<"
+ ],
+ [
+  ">Outdent<",
+  ">反缩进<"
+ ],
+ [
+  ">Find<",
+  ">查找<"
+ ],
+ [
+  ">Replace<",
+  ">替换<"
+ ],
+ [
+  ">Find next<",
+  ">查找下一个<"
+ ],
+ [
+  ">Find previous<",
+  ">查找上一个<"
+ ],
+ [
+  ">Fold selection<",
+  ">折叠选中区域<"
+ ],
+ [
+  ">Unfold<",
+  ">展开<"
+ ],
+ [
+  ">Fold all<",
+  ">全部折叠<"
+ ],
+ [
+  ">Unfold all<",
+  ">全部展开<"
+ ],
+ [
+  ">Select all<",
+  ">全选<"
+ ],
+ [
+  ">Remove line<",
+  ">删除行<"
+ ],
+ [
+  ">Copy lines down<",
+  ">向下复制行<"
+ ],
+ [
+  ">Copy lines up<",
+  ">向上复制行<"
+ ],
+ [
+  ">Move lines down<",
+  ">向下移动行<"
+ ],
+ [
+  ">Move lines up<",
+  ">向上移动行<"
+ ],
+ [
+  ">Remove to line end<",
+  ">删除到行尾<"
+ ],
+ [
+  ">Remove to linestart<",
+  ">删除到行首<"
+ ],
+ [
+  ">Remove word left<",
+  ">删除左侧单词<"
+ ],
+ [
+  ">Remove word right<",
+  ">删除右侧单词<"
+ ],
+ [
+  ">Split line<",
+  ">拆分行<"
+ ],
+ [
+  ">Select left<",
+  ">向左选择<"
+ ],
+ [
+  ">Select right<",
+  ">向右选择<"
+ ],
+ [
+  ">Select word left<",
+  ">向左选择单词<"
+ ],
+ [
+  ">Select word right<",
+  ">向右选择单词<"
+ ],
+ [
+  ">Select line start<",
+  ">选择到行首<"
+ ],
+ [
+  ">Select line end<",
+  ">选择到行尾<"
+ ],
+ [
+  ">Select to line end<",
+  ">选择到行尾<"
+ ],
+ [
+  ">Select to line start<",
+  ">选择到行首<"
+ ],
+ [
+  ">Select up<",
+  ">向上选择<"
+ ],
+ [
+  ">Select down<",
+  ">向下选择<"
+ ],
+ [
+  ">Select page up<",
+  ">向上选择一页<"
+ ],
+ [
+  ">Select page down<",
+  ">向下选择一页<"
+ ],
+ [
+  ">Select to start<",
+  ">选择到开头<"
+ ],
+ [
+  ">Select to end<",
+  ">选择到末尾<"
+ ],
+ [
+  ">Duplicate selection<",
+  ">复制选中区域<"
+ ],
+ [
+  ">Select to matching bracket<",
+  ">选择到匹配括号<"
+ ],
+ [
+  ">Add multi-cursor above<",
+  ">在上方添加多光标<"
+ ],
+ [
+  ">Add multi-cursor below<",
+  ">在下方添加多光标<"
+ ],
+ [
+  ">Add next occurrence to multi-selection<",
+  ">添加下一个匹配到多选<"
+ ],
+ [
+  ">Add previous occurrence to multi-selection<",
+  ">添加上一个匹配到多选<"
+ ],
+ [
+  ">Move multicursor from current line to the line above<",
+  ">将多光标移动到上一行<"
+ ],
+ [
+  ">Move multicursor from current line to the line below<",
+  ">将多光标移动到下一行<"
+ ],
+ [
+  ">Remove current occurrence from multi-selection and move to next<",
+  ">移除当前匹配并移到下一个<"
+ ],
+ [
+  ">Remove current occurrence from multi-selection and move to previous<",
+  ">移除当前匹配并移到上一个<"
+ ],
+ [
+  ">Select all from multi-selection<",
+  ">全选多光标匹配<"
+ ],
+ [
+  ">Left<",
+  ">向左<"
+ ],
+ [
+  ">Right<",
+  ">向右<"
+ ],
+ [
+  ">Up<",
+  ">向上<"
+ ],
+ [
+  ">Down<",
+  ">向下<"
+ ],
+ [
+  ">Go to left<",
+  ">光标左移<"
+ ],
+ [
+  ">Go to right<",
+  ">光标右移<"
+ ],
+ [
+  ">Go to word left<",
+  ">光标移到左侧单词<"
+ ],
+ [
+  ">Go to word right<",
+  ">光标移到右侧单词<"
+ ],
+ [
+  ">Go line up<",
+  ">光标上移<"
+ ],
+ [
+  ">Go line down<",
+  ">光标下移<"
+ ],
+ [
+  ">Go to line start<",
+  ">光标到行首<"
+ ],
+ [
+  ">Go to line end<",
+  ">光标到行尾<"
+ ],
+ [
+  ">Go to page up<",
+  ">向上翻页<"
+ ],
+ [
+  ">Go to page down<",
+  ">向下翻页<"
+ ],
+ [
+  ">Go to start<",
+  ">到开头<"
+ ],
+ [
+  ">Go to end<",
+  ">到末尾<"
+ ],
+ [
+  ">Go to line<",
+  ">转到指定行<"
+ ],
+ [
+  ">Scroll line down<",
+  ">向下滚动行<"
+ ],
+ [
+  ">Scroll line up<",
+  ">向上滚动行<"
+ ],
+ [
+  ">Go to matching bracket<",
+  ">到匹配括号<"
+ ],
+ [
+  ">Scroll page down<",
+  ">向下滚动一页<"
+ ],
+ [
+  ">Scroll page up<",
+  ">向上滚动一页<"
+ ],
+ [
+  ">Show the settings menu<",
+  ">显示设置菜单<"
+ ],
+ [
+  ">Toggle comment<",
+  ">切换注释<"
+ ],
+ [
+  ">Transpose letters<",
+  ">交换字母<"
+ ],
+ [
+  ">Enter full screen<",
+  ">进入全屏<"
+ ],
+ [
+  ">Change to lower case<",
+  ">转换为小写<"
+ ],
+ [
+  ">Change to upper case<",
+  ">转换为大写<"
+ ],
+ [
+  ">Macros replay<",
+  ">重放宏<"
+ ],
+ [
+  ">Macros recording<",
+  ">录制宏<"
+ ],
+ [
+  ">Center selection<",
+  ">居中选区<"
+ ],
+ [
+  ">Insert<",
+  ">插入<"
+ ],
+ [
+  ">Overwrite<",
+  ">覆盖<"
+ ],
+ [
+  ">New File<",
+  ">新建文件<"
+ ],
+ [
+  ">New Folder<",
+  ">新建文件夹<"
+ ],
+ [
+  ">Close File<",
+  ">关闭文件<"
+ ],
+ [
+  ">Close file<",
+  ">关闭文件<"
+ ],
+ [
+  ">New tab<",
+  ">新建标签页<"
+ ],
+ [
+  ">New Branch<",
+  ">新建分支<"
+ ],
+ [
+  ">New Branch Name<",
+  ">新分支名称<"
+ ],
+ [
+  ">New File Name<",
+  ">新文件名<"
+ ],
+ [
+  ">New Folder Name<",
+  ">新文件夹名称<"
+ ],
+ [
+  ">Prompt before save<",
+  ">保存前提示<"
+ ],
+ [
+  ">Hide details in browser<",
+  ">在浏览器中隐藏详情<"
+ ],
+ [
+  ">Animated Scroll<",
+  ">动画滚动<"
+ ],
+ [
+  ">Behaviour Enabled<",
+  ">行为启用<"
+ ],
+ [
+  ">Display Indent Guides<",
+  ">显示缩进参考线<"
+ ],
+ [
+  ">Fade Fold Widgets<",
+  ">折叠控件淡出<"
+ ],
+ [
+  ">Font Size<",
+  ">字体大小<"
+ ],
+ [
+  ">Highlight Active Line<",
+  ">高亮当前行<"
+ ],
+ [
+  ">Highlight Gutter Line<",
+  ">高亮边栏行<"
+ ],
+ [
+  ">Highlight Selected Word<",
+  ">高亮选中单词<"
+ ],
+ [
+  ">H Scroll Bar Always Visible<",
+  ">水平滚动条常显<"
+ ],
+ [
+  ">V Scroll Bar Always Visible<",
+  ">垂直滚动条常显<"
+ ],
+ [
+  ">Keyboard Handler<",
+  ">键盘模式<"
+ ],
+ [
+  ">Mode<",
+  ">模式<"
+ ],
+ [
+  ">Auto<",
+  ">自动<"
+ ],
+ [
+  ">New Line Mode<",
+  ">换行模式<"
+ ],
+ [
+  ">Read Only<",
+  ">只读<"
+ ],
+ [
+  ">Scroll Speed<",
+  ">滚动速度<"
+ ],
+ [
+  ">Show Fold Widgets<",
+  ">显示折叠控件<"
+ ],
+ [
+  ">Show Gutter<",
+  ">显示边栏<"
+ ],
+ [
+  ">Show Invisibles<",
+  ">显示不可见字符<"
+ ],
+ [
+  ">Show Print Margin<",
+  ">显示打印边距<"
+ ],
+ [
+  ">Show Line Numbers<",
+  ">显示行号<"
+ ],
+ [
+  ">Tab Size<",
+  ">制表符大小<"
+ ],
+ [
+  ">Use Soft Tabs<",
+  ">使用软制表符<"
+ ],
+ [
+  ">Use Worker<",
+  ">使用工作线程<"
+ ],
+ [
+  ">Wrap Behaviours Enabled<",
+  ">启用自动换行<"
+ ],
+ [
+  ">Wrap Mode<",
+  ">换行模式<"
+ ],
+ [
+  ">Wrap Limit<",
+  ">换行限制<"
+ ],
+ [
+  ">Save Settings Locally<",
+  ">本地保存设置<"
+ ],
+ [
+  ">Theme<",
+  ">主题<"
+ ],
+ [
+  ">Theme: Auto<",
+  ">主题：自动<"
+ ],
+ [
+  ">Do you want to reload the<",
+  ">是否重新加载<"
+ ],
+ [
+  ">Do you really want to<",
+  ">确实要执行<"
+ ],
+ [
+  ">Do you really want to restart Home<",
+  ">确实要重启 Home<"
+ ],
+ [
+  ">Do you really want to Add the network / IP <",
+  ">确实要添加网络/ IP <"
+ ],
+ [
+  ">Do you really want to remove the network / IP <",
+  ">确实要移除网络/ IP <"
+ ],
+ [
+  ">Do you really want to ban the IP <",
+  ">确实要封禁 IP <"
+ ],
+ [
+  ">Do you really want to unban the IP <",
+  ">确实要解封 IP <"
+ ],
+ [
+  ">Are you sure you want to delete <",
+  ">确定要删除 <"
+ ],
+ [
+  ">Are you sure you want to add <",
+  ">确定要添加 <"
+ ],
+ [
+  ">Are you sure you want to close the current<",
+  ">确定要关闭当前<"
+ ],
+ [
+  ">Are you sure you want to initialize a repository at the current<",
+  ">确定要在当前位置初始化仓库<"
+ ],
+ [
+  ">Are you sure you want to push your commited changes to the configured remote /<",
+  ">确定要将已提交的更改推送到配置的远程仓库 /<"
+ ],
+ [
+  ">Are you sure you want to stash your<",
+  ">确定要暂存你的<"
+ ],
+ [
+  ">Please choose a file to upload<",
+  ">请选择要上传的文件<"
+ ],
+ [
+  ">Please enter a new name for <",
+  ">请输入新名称： <"
+ ],
+ [
+  ">You have unsaved changes in the current file. Please save the changes or close the file before opening a new one.<",
+  ">当前文件有未保存的更改。请在打开新文件前保存更改或关闭当前文件。<"
+ ],
+ [
+  ">Unsaved Changes<",
+  ">未保存的更改<"
+ ],
+ [
+  ">Commit message<",
+  ">提交信息<"
+ ],
+ [
+  ">Websocket URI<",
+  ">Websocket 地址<"
+ ],
+ [
+  ">API password<",
+  ">API 密码<"
+ ],
+ [
+  ">Version: <",
+  ">版本： <"
+ ],
+ [
+  ">Branch:<",
+  ">分支：<"
+ ],
+ [
+  ">Branch: <",
+  ">分支： <"
+ ],
+ [
+  ">Check Home Assistant Configuration<",
+  ">检查 Home Assistant 配置<"
+ ],
+ [
+  ">Restart Home Assistant<",
+  ">重启 Home Assistant<"
+ ],
+ [
+  ">Toggle Home Assistant panel<",
+  ">切换 Home Assistant 面板<"
+ ],
+ [
+  ">Generate UUID<",
+  ">生成 UUID<"
+ ],
+ [
+  ">Execute shell command<",
+  ">执行 Shell 命令<"
+ ],
+ [
+  ">Reload core<",
+  ">重新加载核心<"
+ ],
+ [
+  ">Configuration seems valid.<",
+  ">配置有效。<"
+ ],
+ [
+  ">Automations reloaded<",
+  ">自动化已重新加载<"
+ ],
+ [
+  ">Scripts reloaded<",
+  ">脚本已重新加载<"
+ ],
+ [
+  ">Groups reloaded<",
+  ">组已重新加载<"
+ ],
+ [
+  ">Core reloaded<",
+  ">核心已重新加载<"
+ ],
+ [
+  ">Restarting Home Assistant<",
+  ">正在重启 Home Assistant<"
+ ],
+ [
+  ">Error:<",
+  ">错误：<"
+ ],
+ [
+  ">Upload succesful<",
+  ">上传成功<"
+ ],
+ [
+  ">Ban IP<",
+  ">封禁 IP<"
+ ],
+ [
+  ">Unban IP<",
+  ">解封 IP<"
+ ],
+ [
+  ">Add allowed network / IP<",
+  ">添加允许的网络 / IP<"
+ ],
+ [
+  ">Remove allowed network / IP<",
+  ">移除允许的网络 / IP<"
+ ],
+ [
+  ">Add network / IP<",
+  ">添加网络 / IP<"
+ ],
+ [
+  ">Modifying the following lists is not persistent. To statically control access please use the configuration file.<",
+  ">修改以下列表不会持久保存。要静态控制访问权限，请使用配置文件。<"
+ ],
+ [
+  ">Listening<",
+  ">监听中<"
+ ],
+ [
+  ">Web-based file editor designed to modify configuration files of <",
+  ">基于 Web 的文件编辑器，用于修改 <的配置文件"
+ ],
+ [
+  ">Published under the MIT license<",
+  ">基于 MIT 许可证发布<"
+ ],
+ [
+  ">Developed by:<",
+  ">开发者：<"
+ ],
+ [
+  ">git init<",
+  ">git 初始化<"
+ ],
+ [
+  ">git add<",
+  ">git 添加<"
+ ],
+ [
+  ">git commit<",
+  ">git 提交<"
+ ],
+ [
+  ">git push<",
+  ">git 推送<"
+ ],
+ [
+  ">git stash<",
+  ">git 暂存<"
+ ],
+ [
+  ">Your<",
+  ">你的<"
+ ],
+ [
+  ">Select<",
+  ">选择<"
+ ]
+]
