@@ -11,6 +11,8 @@ import ast, json, os, re, sys, argparse
 
 # ---------- 内嵌补充规则(不在这两批替代里, 单独维护, 保证可复现到成品) ----------
 EXTRA = [
+  # 品牌名+中文说明(外部链接)
+  ("Material Icons","Material 图标"),
   # 弹窗确认(含标点完整句)
   ('Do you really want to save?','确实要保存吗？'),
   ('Are you sure you want to initialize a repository at the current path?','确定要在当前路径初始化仓库吗？'),

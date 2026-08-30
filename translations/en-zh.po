@@ -12,6 +12,9 @@ msgstr ">是<"
 msgid ">No<"
 msgstr ">否<"
 
+msgid "Material Icons"
+msgstr "Material 图标"
+
 msgid ">Abort<"
 msgstr ">中止<"
 
